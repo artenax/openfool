@@ -32,7 +32,7 @@ OpenFool - free and open source (GPL v3) Fool (Durak) card game implementation.
 1. Clone the repository
 
 ```bash
-git clone https://github.com/hyst329/OpenFool.git
+git clone https://github.com/artenax/OpenFool.git
 ```
 
 2. Either open the project in Qt Creator, or build via the command line:
