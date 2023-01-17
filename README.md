@@ -18,7 +18,7 @@ OpenFool - free and open source (GPL v3) Fool (Durak) card game implementation.
 
 ## How to build from sources
 ### Prerequisites
-- Qt 5.6 or later (tested with 5.6, 5.7, 5.8). You need the following modules
+- Qt 5.5 or later (tested with 5.5, 5.6, 5.7, 5.8). You need the following modules
     - Qt Core
     - Qt GUI
     - Qt Widgets
