@@ -2,6 +2,8 @@
 
 OpenFool - free and open source (GPL v3) Fool (Durak) card game implementation.
 
+![openfool](https://user-images.githubusercontent.com/107228652/213781379-0fa95191-1a34-4870-826c-d3662714dca8.png)
+
 ## Features
 ### Implemented
 - 4-players partnership game
