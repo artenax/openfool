@@ -60,7 +60,7 @@ Table::Table(QSettings *settings, QObject *parent) : QGraphicsScene(parent)
         this->addItem(ci);
         _cardItems[c] = ci;
     }
-    QFont mainFont("Times", CARD_HEIGHT / 10, QFont::Bold);
+    QFont mainFont("Serif", CARD_HEIGHT / 10, QFont::Bold);
     for (int i = 0; i < PLAYERS_COUNT; i++) {
         _playerNames << settings->value(QString("players/name%1").arg(i + 1),
                                         PLAYER_NAMES[i]).toString();
