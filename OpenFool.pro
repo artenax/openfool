@@ -14,6 +14,10 @@ VERSION = 0.0.9
 
 CONFIG += c++11
 
+CONFIG += lrelease embed_translations
+LRELEASE_DIR=.
+QM_FILES_RESOURCE_PREFIX=/
+
 SOURCES += main.cpp\
         mainwindow.cpp \
     carddeck.cpp \
@@ -56,7 +60,7 @@ DISTFILES += \
     android/res/drawable-hdpi/icon.png \
     android/res/drawable-mdpi/icon.png
 
-TRANSLATIONS = OpenFool_en.ts OpenFool_ru.ts
+TRANSLATIONS += OpenFool_en.ts OpenFool_ru.ts
 
 ANDROID_PACKAGE_SOURCE_DIR = $$PWD/android
 
