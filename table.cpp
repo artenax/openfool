@@ -26,7 +26,7 @@ const QPointF PLAYER_LOCATIONS[PLAYERS_COUNT]
        {0, -2.5 * CARD_HEIGHT},
        {3 * CARD_WIDTH, -1.5 * CARD_HEIGHT}};
 const QPointF BUTTON_LOCATION = {-4 * CARD_WIDTH, 2 * CARD_HEIGHT};
-const QString PLAYER_NAMES[PLAYERS_COUNT] = {"South", "West", "North", "East"};
+const QString PLAYER_NAMES[PLAYERS_COUNT] = {"Denis", "Ivan", "Mama", "Kot"};
 const QPointF DELTA_HUMAN(0.25 * CARD_WIDTH, 0),
     DELTA_AI(0.05 * CARD_WIDTH, 0.05 * CARD_WIDTH);
 const QPointF CARD_FIELD_LOCATIONS[DEAL_LIMIT]
