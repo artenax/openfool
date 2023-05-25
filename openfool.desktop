@@ -1,10 +1,9 @@
 [Desktop Entry]
 Name=OpenFool
-GenericName=OpenFool
-Comment=OpenFool
+Comment=OpenFool card game
 Exec=OpenFool
 Terminal=false
 Type=Application
 Categories=Game;BoardGame;
 StartupNotify=false
-Icon=openfool.png
+Icon=openfool
