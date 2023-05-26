@@ -6,6 +6,7 @@
 #include <QDebug>
 #include <random>
 #include <functional>
+#include <array>
 
 static std::mt19937 rng;
 static std::array<uint8_t, 2496> seedData;
