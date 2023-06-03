@@ -16,7 +16,7 @@ SettingsDialog::SettingsDialog(QSettings *settings, QWidget *parent)
     ui->lineEditPlayer1Name->setText(
         settings->value("players/name1", "Denis").toString());
     ui->lineEditPlayer2Name->setText(
-        settings->value("players/name2", "Ivan").toString());
+        settings->value("players/name2", "Girotte").toString());
     ui->lineEditPlayer3Name->setText(
         settings->value("players/name3", "Mama").toString());
     ui->lineEditPlayer4Name->setText(
